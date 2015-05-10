@@ -1,9 +1,6 @@
 package RuangKelas;
 import java.text.DecimalFormat;
-/**
- *
- * @author acer
- */
+
 public class KemananRK extends SuperClass{
     Cetakan_KeamananRK[] apa = new Cetakan_KeamananRK[4];
     Cetakan_KeamananRK cm = new Cetakan_KeamananRK();

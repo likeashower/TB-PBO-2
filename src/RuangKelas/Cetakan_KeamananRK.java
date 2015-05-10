@@ -1,10 +1,5 @@
 package RuangKelas;
 
-/*UPDATES
-Sunday, 2015/04/19 Created by Ulfie.K.
-Sunday, 2015/04/19 Updated by Nabillah.A. (Enkapsulasi)
-*/
-
 public class Cetakan_KeamananRK {
 
 private String input;

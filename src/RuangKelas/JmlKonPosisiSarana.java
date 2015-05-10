@@ -1,6 +1,5 @@
 package RuangKelas;
 
-import java.util.*;
 public class JmlKonPosisiSarana extends SuperClass{
     
     Cetakan_JmlKonPosisiSarana[] wa = new Cetakan_JmlKonPosisiSarana[19];

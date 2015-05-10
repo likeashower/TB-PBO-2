@@ -3,8 +3,6 @@ package RuangKelas;
 Sunday, 2015/04/19 Created by Ulfie.K.
 Sunday, 2015/04/19 Updated by Nabillah.A. (Method input & output)
 */
-import java.util.Scanner;
-
 public class IdentitasKelas extends SuperClass{
     Cetakan_IdentitasKelas IDkelas = new Cetakan_IdentitasKelas();
     

@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package RuangKelas;
 
 /**
@@ -12,4 +6,35 @@ package RuangKelas;
  */
 public class TestKelas {
     
+    public static void main (String[] args) {
+        
+    IdentitasKelas id = new IdentitasKelas();
+    JmlKonPosisiSarana jkps = new JmlKonPosisiSarana();
+    KebersihanRK brs = new KebersihanRK();
+    KemananRK aman = new KemananRK();
+    KenyamananRK nym = new KenyamananRK();
+    KondisiKelas kd = new KondisiKelas();
+    LingRuangKelas ling = new LingRuangKelas();
+    Cetakan_KenyamananRK obj = new Cetakan_KenyamananRK();
+        
+        //INPUT
+        id.insertdata_IDKELAS();
+        kd.InputKondisiKelas();
+        jkps.InputJKPSarana();
+        ling.InputLingRuangKelas();
+        brs.InputKebersihanRK();
+        nym.InputKenyamanan();
+        aman.InputKeamananRK();
+        
+        //OUTPUT
+        id.cetakdata_IDKELAS();
+        kd.OutputKondisiKelas();
+        jkps.OutputJKPSarana();
+        ling.OutputLingRuangKelas();
+        brs.OutputKebersihanRK();
+        nym.OutputKenyamanan();
+        aman.OutputKeamananRK();
+       
+        
+    }
 }

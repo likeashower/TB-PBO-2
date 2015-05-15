@@ -1,3 +1,4 @@
+
 package RuangKelas;
 public class KondisiKelas extends SuperClass{
     

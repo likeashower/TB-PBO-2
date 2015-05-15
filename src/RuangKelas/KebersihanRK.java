@@ -1,4 +1,5 @@
 
+
 package RuangKelas;
 
 public class KebersihanRK extends SuperClass {
@@ -87,3 +88,4 @@ public class KebersihanRK extends SuperClass {
      System.out.println("Persentase Kebersihan Ruang Kelas : " + (obj.getHitung()/arr.length)*100 + "%");
 }
  }
+

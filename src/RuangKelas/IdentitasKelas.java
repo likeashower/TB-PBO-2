@@ -1,3 +1,4 @@
+
 package RuangKelas;
 
 public class IdentitasKelas extends SuperClass{

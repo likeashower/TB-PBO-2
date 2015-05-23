@@ -1,5 +1,6 @@
 
 
+
 package RuangKelas;
 
 public class KebersihanRK extends AnalisaRuangKelas implements AnalisaRuangKelas1 {

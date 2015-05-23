@@ -1,6 +1,6 @@
 package RuangKelas;
 
-public class LingRuangKelas extends SuperClass{
+public class LingRuangKelas extends AnalisaRuangKelas implements AnalisaRuangKelas1{
     
     
     Cetakan_LingRuangKelas obj = new Cetakan_LingRuangKelas();
@@ -33,7 +33,7 @@ public class LingRuangKelas extends SuperClass{
                      
     }
       @Override
-            boolean analisis_string1() {
+            public boolean analisis_string1() {
             if (arr[i].getInput().equals("a")) { 
             t++;
             return true;

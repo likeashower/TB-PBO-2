@@ -1,5 +1,5 @@
 package RuangKelas;
-public class KenyamananRK extends SuperClass {
+public class KenyamananRK extends AnalisaRuangKelas implements AnalisaRuangKelas1{
     
    
    Cetakan_KenyamananRK obj = new Cetakan_KenyamananRK();
@@ -31,7 +31,7 @@ public class KenyamananRK extends SuperClass {
   }
   
   @Override
-            boolean analisis_string1() {
+            public boolean analisis_string1() {
             if (arr[i].getInput().equals("b")) { 
             t++;
             return true;

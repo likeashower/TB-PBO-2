@@ -2,19 +2,11 @@ package RuangKelas;
 
 import java.util.*;
 
-public class SuperClass {
+public class AnalisaRuangKelas {
+    
     Scanner input = new Scanner(System.in);
     String a;
     int i, t=0;
-    
-    boolean analisis_string1() {
-        if (a.equals("a")) { 
-            t++;
-            return true;
-        } else {
-            return false;
-        }
-    }
     
     boolean analisis_string2() {
         if (a.equals("a")) { 
@@ -60,6 +52,7 @@ public class SuperClass {
             return false;
         }
         }
+        
     boolean analisis_int3() {
         if ( i >= 1 ) { 
             t++;
@@ -68,7 +61,7 @@ public class SuperClass {
             return false;
         }
     }
-    
+          
     boolean analisis_int4() {
         if ( i >= 1 ) { 
             t++;

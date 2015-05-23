@@ -1,7 +1,7 @@
 
 package RuangKelas;
 
-public class JmlKonPosisiSarana extends SuperClass{
+public class JmlKonPosisiSarana extends AnalisaRuangKelas implements AnalisaRuangKelas1{
     
     Cetakan_JmlKonPosisiSarana[] wa = new Cetakan_JmlKonPosisiSarana[19];
     Cetakan_JmlKonPosisiSarana jkp = new Cetakan_JmlKonPosisiSarana();
@@ -134,7 +134,7 @@ public class JmlKonPosisiSarana extends SuperClass{
          }
         
          @Override
-         boolean analisis_string1(){
+         public boolean analisis_string1(){
              if (wa[0].getInput().equals("a") ) {
                 t++;
                 return true;

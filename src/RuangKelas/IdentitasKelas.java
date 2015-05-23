@@ -1,7 +1,7 @@
 
 package RuangKelas;
 
-public class IdentitasKelas extends SuperClass{
+public class IdentitasKelas extends AnalisaRuangKelas{
     Cetakan_IdentitasKelas IDkelas = new Cetakan_IdentitasKelas();
     
     void insertdata_IDKELAS (){

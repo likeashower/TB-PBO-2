@@ -1,6 +1,6 @@
 
 package RuangKelas;
-public class KondisiKelas extends SuperClass{
+public class KondisiKelas extends AnalisaRuangKelas{
     
     Cetakan_KondisiKelas obj = new Cetakan_KondisiKelas();
     Cetakan_KondisiKelas[] arr = new Cetakan_KondisiKelas[5];

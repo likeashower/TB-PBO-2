@@ -1,7 +1,7 @@
 package RuangKelas;
 import java.text.DecimalFormat;
 
-public class KemananRK extends SuperClass{
+public class KemananRK extends AnalisaRuangKelas implements AnalisaRuangKelas1{
     Cetakan_KeamananRK[] apa = new Cetakan_KeamananRK[4];
     Cetakan_KeamananRK cm = new Cetakan_KeamananRK();
     
@@ -31,7 +31,7 @@ public class KemananRK extends SuperClass{
     }
         
         @Override
-            boolean analisis_string1() {
+            public boolean analisis_string1() {
             if (apa[i].getInput().equals("a")) { 
             t++;
             return true;

@@ -1,4 +1,5 @@
 
+
 package RuangKelas;
 
 public class JmlKonPosisiSarana extends AnalisaRuangKelas implements AnalisaRuangKelas1{

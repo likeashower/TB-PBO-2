@@ -1,3 +1,4 @@
+
 package RuangKelas;
 
 abstract public interface AnalisaRuangKelas1 {

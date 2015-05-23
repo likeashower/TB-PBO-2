@@ -1,3 +1,5 @@
+
+
 package RuangKelas;
 
 public class LingRuangKelas extends AnalisaRuangKelas implements AnalisaRuangKelas1{

@@ -1,4 +1,5 @@
 
+
 package RuangKelas;
 public class KondisiKelas extends AnalisaRuangKelas{
     

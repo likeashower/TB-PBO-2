@@ -1,4 +1,3 @@
-
 package RuangKelas;
 
 import java.io.Serializable;
@@ -25,5 +24,3 @@ public class Cetakan_LingRuangKelas implements Serializable{
          
     
 }
-
-

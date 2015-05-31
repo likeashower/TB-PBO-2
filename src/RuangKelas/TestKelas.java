@@ -1,9 +1,5 @@
 package RuangKelas;
 
-/**
- *
- * @author acer
- */
 public class TestKelas {
     
     public static void main (String[] args) {
@@ -21,8 +17,8 @@ public class TestKelas {
 //        id.insertdata_IDKELAS();
 //        kd.InputKondisiKelas();
 //        jkps.InputJKPSarana();
-//        ling.InputLingRuangKelas();
-//        brs.InputKebersihanRK();
+        ling.InputLingRuangKelas();
+        brs.InputKebersihanRK();
 //        nym.InputKenyamanan();
         aman.InputKeamananRK();
         
@@ -30,12 +26,14 @@ public class TestKelas {
 //        id.cetakdata_IDKELAS();
 //        kd.OutputKondisiKelas();
 //        jkps.OutputJKPSarana();
-//        ling.OutputLingRuangKelas();
-//        brs.OutputKebersihanRK();
+        ling.OutputLingRuangKelas();
+        brs.OutputKebersihanRK();
 //        nym.OutputKenyamanan();
         aman.OutputKeamananRK();
        
         //FILE
+        ling.File();
+        brs.File();
         aman.File();
     }
 }

@@ -2,7 +2,9 @@
 
 package RuangKelas;
 
-public class Cetakan_KebersihanRK {
+import java.io.Serializable;
+
+public class Cetakan_KebersihanRK implements Serializable {
     
     private String input;
     private int input1;

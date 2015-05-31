@@ -2,6 +2,11 @@
 
 package RuangKelas;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
 public class LingRuangKelas extends AnalisaRuangKelas implements AnalisaRuangKelas1{
     
     
@@ -51,5 +56,35 @@ public class LingRuangKelas extends AnalisaRuangKelas implements AnalisaRuangKel
         
         obj.setHitung(t);
         System.out.println("Persentase Kebersihan Lingkungan Ruang Kelas: " + (obj.getHitung()/arr.length)*100 + "%");
+    }
+    
+    void File(){
+        
+        String File = "Lingkungan.bin";
+        
+     try {
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(File));
+            for (int n =0; n <4 ;n++) {
+            os.writeObject(arr[n].getInput());}
+            os.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+         
+          /*try {
+                ObjectInputStream is = new ObjectInputStream(new FileInputStream(File));
+                Cetakan_KebersihanRK o = (Cetakan_KebersihanRK) is.readObject();
+                
+                
+                is.close();
+        } catch (FileNotFoundException e) {
+                e.printStackTrace();
+        } catch (IOException e) {
+                e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+        }*/
     }
 }

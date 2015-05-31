@@ -3,6 +3,8 @@
 
 package RuangKelas;
 
+import java.io.*;
+
 public class KebersihanRK extends AnalisaRuangKelas implements AnalisaRuangKelas1 {
 
     
@@ -88,5 +90,39 @@ public class KebersihanRK extends AnalisaRuangKelas implements AnalisaRuangKelas
      obj.setHitung(t);
      System.out.println("Persentase Kebersihan Ruang Kelas : " + (obj.getHitung()/arr.length)*100 + "%");
 }
+       
+       
+       void File(){
+         
+         String File = "Kebersihan.bin";
+         
+         try {
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(File));
+            for (int n =0; n <4 ;n++) {
+            os.writeObject(arr[n].getInput());}
+            for (int n =0; n <4 ;n++) {
+            os.writeObject(arr[n].getInput1());}
+            os.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+         
+          /*try {
+                ObjectInputStream is = new ObjectInputStream(new FileInputStream(File));
+                Cetakan_KebersihanRK o = (Cetakan_KebersihanRK) is.readObject();
+                
+                
+                is.close();
+        } catch (FileNotFoundException e) {
+                e.printStackTrace();
+        } catch (IOException e) {
+                e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+        }*/
+         
+     }
  }
 

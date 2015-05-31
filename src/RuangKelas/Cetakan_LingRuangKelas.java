@@ -1,7 +1,9 @@
 
 package RuangKelas;
 
-public class Cetakan_LingRuangKelas {
+import java.io.Serializable;
+
+public class Cetakan_LingRuangKelas implements Serializable{
     private String input;
     private double hitung = 0;
     

@@ -1,11 +1,14 @@
 
 package RuangKelas;
+
+import java.io.Serializable;
+
 /*UPDATES
 Sunday, 2015/04/19 Created by Ulfie.K.
 Sunday, 2015/04/19 Updated by Nabillah.A. (Enkapsulasi)
 Saturday, 2015/04/25 Updated by Ulfie.K. (Method hitung luas&rasio, method analisa)
 */
-public class Cetakan_KondisiKelas {
+public class Cetakan_KondisiKelas implements Serializable{
   
     private int input;
     private double hitung = 0;

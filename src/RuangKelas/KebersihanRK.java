@@ -1,6 +1,3 @@
-
-
-
 package RuangKelas;
 
 import java.io.*;
@@ -99,21 +96,26 @@ public class KebersihanRK extends AnalisaRuangKelas implements AnalisaRuangKelas
          try {
             ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(File));
             for (int n =0; n <4 ;n++) {
-            os.writeObject(arr[n].getInput());}
+            os.writeObject(obj.getInput());}
             for (int n =0; n <4 ;n++) {
-            os.writeObject(arr[n].getInput1());}
+            os.writeObject(obj.getInput1());}
             os.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-         
-          /*try {
-                ObjectInputStream is = new ObjectInputStream(new FileInputStream(File));
-                Cetakan_KebersihanRK o = (Cetakan_KebersihanRK) is.readObject();
-                
-                
+           System.out.println("Done Writing");
+           
+          try {
+                FileInputStream fl = new FileInputStream(File);
+                ObjectInputStream is = new ObjectInputStream(fl);
+                Object one = is.readObject();
+                Object two = is.readObject();
+                Cetakan_KebersihanRK o = (Cetakan_KebersihanRK) one;
+                Cetakan_KebersihanRK a = (Cetakan_KebersihanRK) two;
+                System.out.println("ini adalah input string " + o.getInput());
+                System.out.println("ini adalah input int " + o.getInput1());
                 is.close();
         } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -121,7 +123,7 @@ public class KebersihanRK extends AnalisaRuangKelas implements AnalisaRuangKelas
                 e.printStackTrace();
         } catch (ClassNotFoundException e) {
                 e.printStackTrace();
-        }*/
+        }
          
      }
  }

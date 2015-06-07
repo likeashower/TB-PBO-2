@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Tabs" min="-2" pref="562" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="Tabs" min="-2" pref="511" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="Tabs">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="SignIn">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Sign In">
+                <Property name="tabTitle" type="java.lang.String" value="Sign In"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="username" linkSize="1" min="-2" pref="171" max="-2" attributes="0"/>
+                          <Component id="un" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="pw" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="password" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="16" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="username_signup" linkSize="4" min="-2" pref="171" max="-2" attributes="0"/>
+                          <Component id="email_signup" min="-2" pref="171" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cnfrm_pass" linkSize="4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="password_signup" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="96" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="un" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="username" linkSize="2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="pw" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="password" linkSize="2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="username_signup" linkSize="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Component id="email_signup" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="password_signup" linkSize="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cnfrm_pass" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="80" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="username">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usernameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="password">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="passwordActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tekton Pro" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sign Up"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sign In"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tekton Pro" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sign In"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="username_signup">
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="password_signup">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_signupActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="email_signup">
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="cnfrm_pass">
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sign Up"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="un">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Username"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pw">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Password"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Username"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="E-Mail"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Password"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Confirm Password"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="IdentitasKondisi">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Identitas dan Kondisi">
+                <Property name="tabTitle" type="java.lang.String" value="Identitas dan Kondisi"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Fakultas" min="-2" max="-2" attributes="0"/>
+                                  <Component id="NamaRuangan" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LokasiRuangan" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField5" linkSize="5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField3" linkSize="5" alignment="1" min="-2" pref="135" max="-2" attributes="0"/>
+                                  <Component id="jTextField6" linkSize="5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="JmlKursi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JmlJendela" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JmlPintu" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField7" linkSize="5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField8" linkSize="5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField9" linkSize="5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="PanjangRuang" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LebarRang" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="164" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane5" min="-2" pref="29" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane4" min="-2" pref="29" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jSlider1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jSlider2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                      <Component id="IdentitasdanKondisi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="IdentitasdanKondisi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="NamaRuangan" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LokasiRuangan" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="Fakultas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jTextField6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jSlider1" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="PanjangRuang" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSlider2" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="LebarRang" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JmlKursi" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JmlPintu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JmlJendela" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="jTextField3">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField5">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField6">
+            </Component>
+            <Component class="javax.swing.JLabel" name="NamaRuangan">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nama Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LokasiRuangan">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Lokasi Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Fakultas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fakultas"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PanjangRuang">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Panjang Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider1">
+              <Properties>
+                <Property name="majorTickSpacing" type="int" value="1"/>
+                <Property name="maximum" type="int" value="10"/>
+                <Property name="minorTickSpacing" type="int" value="10"/>
+                <Property name="paintLabels" type="boolean" value="true"/>
+                <Property name="paintTicks" type="boolean" value="true"/>
+                <Property name="snapToTicks" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LebarRang">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Lebar Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider2">
+              <Properties>
+                <Property name="majorTickSpacing" type="int" value="1"/>
+                <Property name="maximum" type="int" value="10"/>
+                <Property name="minimum" type="int" value="1"/>
+                <Property name="paintLabels" type="boolean" value="true"/>
+                <Property name="paintTicks" type="boolean" value="true"/>
+                <Property name="snapToTicks" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JmlKursi">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jumlah Kursi"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JmlPintu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jumlah Pintu"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JmlJendela">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jumlah Jendela"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField7">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField8">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField9">
+            </Component>
+            <Component class="javax.swing.JLabel" name="IdentitasdanKondisi">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Identitas dan Kondisi Ruang Kelas"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPane1">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPane2">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="JmlKonPos">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Jumlah Kondisi dan Posisi Sarana">
+                <Property name="tabTitle" type="java.lang.String" value="Jumlah Kondisi dan Posisi Sarana"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="KonAC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlStopKontak" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlKondisiStopKontak" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosStopKontak" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlKabelLCD" min="-2" max="-2" attributes="0"/>
+                                      <Component id="KonKabelLCD" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosKabelLCD" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlLampu" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosLampu" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="KonLampuBaik" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlKipasAngin" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="KonKipasAnginBaik" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosKipasAngin" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlAC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosAC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PilihSSID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bandwidth" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlCCTV" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlCCTVBaik" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosCCTV" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jRadioButton13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jComboBox8" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton11" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton10" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox6" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox4" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton6" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton5" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton7" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton8" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="jRadioButton15" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton14" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jComboBox10" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox9" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jComboBox11" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="jRadioButton17" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton16" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="jSlider6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+                                  <Component id="JKPS" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="348" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="JKPS" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="jComboBox2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="jComboBox4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jComboBox5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="jComboBox6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jComboBox7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton10" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jRadioButton11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="jComboBox8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton14" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="jComboBox9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jSlider6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="jComboBox10" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jComboBox11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jRadioButton16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PosCCTV" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jRadioButton17" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="JmlStopKontak" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="JmlKondisiStopKontak" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="PosStopKontak" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                  <Component id="JmlKabelLCD" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="KonKabelLCD" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="PosKabelLCD" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="JmlLampu" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="KonLampuBaik" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="PosLampu" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="JmlKipasAngin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="KonKipasAnginBaik" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <Component id="PosKipasAngin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="JmlAC" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="KonAC" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="PosAC" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="PilihSSID" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="Bandwidth" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                  <Component id="JmlCCTV" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="JmlCCTVBaik" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="212" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="JmlStopKontak">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Stop Kontak"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlKondisiStopKontak">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Stop Kontak Yang Baik"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PosStopKontak">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Posisi Stop Kontak"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox2">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pojok Ruangan / Dekat Dosen "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lainnya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Dekat Dosen"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lainnya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Berfungsi"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton5ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak Berfungsi"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox3">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlKabelLCD">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Kabel LCD"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KonKabelLCD">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Kondisi Kabel LCD"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PosKabelLCD">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Posisi Kabel LCD"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlLampu">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Lampu"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox4">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox5">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton7"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton8"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KonLampuBaik">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Lampu Berkondisi Baik"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PosLampu">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Posisi Lampu"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlKipasAngin">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Kipas Angin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KonKipasAnginBaik">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Kipas Angin Berkondisi Baik"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PosKipasAngin">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Posisi Kipas Angin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox6">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox7">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Atap Ruangan"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lainnya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlAC">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah AC"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KonAC">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Kondisi AC"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PosAC">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="PosisiAC"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox8">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Baik"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton13">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak Baik"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Di Belakang / Samping "/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton14ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton15">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lainnya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PilihSSID">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pilih SSID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox9">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Bandwidth">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bandwidth (mbps)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlCCTV">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah CCTV"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JmlCCTVBaik">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah CCTV Berkondisi Baik"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PosCCTV">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Posisi CCTV"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox10">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox11">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton16">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Depan dan Belakang"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton17">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lainnya"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton17ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="JKPS">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jumlah Kondisi dan Posisi Sarana"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSlider" name="jSlider6">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Lingkungan">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Lingkungan">
+                <Property name="tabTitle" type="java.lang.String" value="Lingkungan"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jRadioButton27" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton25" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton23" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="KondisiDinding" min="-2" max="-2" attributes="0"/>
+                                          <Component id="KondisiJendela" min="-2" max="-2" attributes="0"/>
+                                          <Component id="KondisiPintu" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="KondisiAtap" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="KondisiLantai" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jRadioButton19" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton18" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jRadioButton21" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jRadioButton20" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton22" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton24" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton26" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
+                              <Component id="LingRuangKls" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="239" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="LingRuangKls" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="KondisiLantai" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jRadioButton19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="KondisiAtap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton21" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="KondisiPintu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton23" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="KondisiJendela" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton24" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton25" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="KondisiDinding" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton26" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton27" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="88" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="KondisiLantai">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kondisi Lantai"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="KondisiAtap">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kondisi Atap"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="KondisiPintu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kondisi Pintu"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="KondisiJendela">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kondisi Jendela"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="KondisiDinding">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kondisi Dinding"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bersih"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kotor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bersih"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kotor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bersih"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kotor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bersih"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kotor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bersih"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kotor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LingRuangKls">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Lingkungan Ruang Kelas"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Kebersihan">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Kebersihan Ruang Kelas">
+                <Property name="tabTitle" type="java.lang.String" value="Kebersihan Ruang Kelas"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="SirkulasiUDara" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Penchayaan" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Kelembapan" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Suhu" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jSlider5" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jSlider3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jSlider4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jRadioButton28" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jRadioButton9" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="153" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SirkulasiUDara" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jRadioButton28" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Penchayaan" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSlider3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Kelembapan" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSlider4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Suhu" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSlider5" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="169" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="SirkulasiUDara">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apakah Sirkulasi Udara Lancar ?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Penchayaan">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pencahayaan Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Kelembapan">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kelembapan Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Suhu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Suhu Dalam Ruangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ya"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tidak"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider3">
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider4">
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider5">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kebersihan Ruang Kelas"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="KenyamananAman">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Kenyamanan dan Keamanan">
+                <Property name="tabTitle" type="java.lang.String" value="Kenyamanan dan Keamanan"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel44" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel45" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel48" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel49" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jRadioButton38" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton37" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton35" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton39" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton40" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton41" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton42" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton43" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton44" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel41" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Kebisingan" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Bau" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Kebocoran" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Kerusakan" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Keausan" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jRadioButton33" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton34" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton45" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton46" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton48" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                                  <Component id="KenyamanandanKeamanan" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="277" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="KenyamanandanKeamanan" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton29" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Kebisingan" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton30" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jRadioButton31" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Bau" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton32" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jRadioButton33" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Kebocoran" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton34" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jRadioButton45" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Kerusakan" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton46" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jRadioButton47" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Keausan" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton48" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton35" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton36" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton37" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton38" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton40" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton41" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton42" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton43" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jRadioButton44" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="417" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel41">
+                </Component>
+                <Component class="javax.swing.JLabel" name="Kebisingan">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apakah Kelas Anda Bising ?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Bau">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apakah Kelas Anda Bau ?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel44">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jLabel44"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel45">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jLabel45"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton29">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton30">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton31">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton32">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton33">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton34">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton35">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton35"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton36">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton36"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton37">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton37"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton38">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton38"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Keausan">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apakah Ada Keausan di Kelas Anda ?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KenyamanandanKeamanan">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Kenyamanan dan Kemanan Ruang Kelas"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel48">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jLabel48"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton39">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton39"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton40">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton40"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel49">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jLabel49"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton41">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton41"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton41ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton42">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton42"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel50">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jLabel50"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton43">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton43"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton44">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="jRadioButton44"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Kebocoran">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apakah Ada Kebocoran di Kelas Anda ?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Kerusakan">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apakah Ada Kerusakan di Kelas Anda ?"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton45">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ya"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton46">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton47">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ya"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton47ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton48">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tidak"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab7">
+                <Property name="tabTitle" type="java.lang.String" value="tab7"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

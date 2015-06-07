@@ -1,7 +1,9 @@
 
 package RuangKelas;
 
-public class Cetakan_JmlKonPosisiSarana {
+import java.io.Serializable;
+
+public class Cetakan_JmlKonPosisiSarana implements Serializable {
 private String input;
 private int input1;
 private double hitung = 0;

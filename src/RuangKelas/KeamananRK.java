@@ -58,22 +58,22 @@ public class KeamananRK extends AnalisaRuangKelas implements AnalisaRuangKelas1{
          try {
             ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(File));
             for (int n =0; n <4 ;n++) {
-            os.writeObject(apa[n].getInput());}
+            os.writeObject(cm.getInput());}
             os.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-         
-          /*try {
-                ObjectInputStream is = new ObjectInputStream(new FileInputStream(File));
-                Cetakan_KeamananRK o = (Cetakan_KeamananRK) is.readObject();
-                System.out.println(o.getInput());
-                System.out.println("Apakah kelas anda kokoh? \n a. Ya \n b. Tidak - Jawab :" + o.getInput());
-                System.out.println("Kunci Pintu :  \n a. Ada \n b. Tidak - Jawab :" + o.getInput());
-                System.out.println("Kunci Jendela : \n a. Ada \n b. Tidak - Jawab : " + o.getInput());
-                System.out.println("Apakah kelas anda aman? \n a. Ya \n b. Tidak - Jawab : " + o.getInput());
+           System.out.println("Done Writing");
+           
+          try {
+                FileInputStream fl = new FileInputStream(File);
+                ObjectInputStream is = new ObjectInputStream(fl);
+                Object one = is.readObject();
+                Object two = is.readObject();
+                Cetakan_KeamananRK o = (Cetakan_KeamananRK) one;
+                System.out.println("ini adalah input string " + o.getInput());
                 is.close();
         } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -81,7 +81,7 @@ public class KeamananRK extends AnalisaRuangKelas implements AnalisaRuangKelas1{
                 e.printStackTrace();
         } catch (ClassNotFoundException e) {
                 e.printStackTrace();
-        }*/
+        }
          
      }
     

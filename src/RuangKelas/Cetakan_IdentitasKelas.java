@@ -2,7 +2,9 @@
 
 package RuangKelas;
 
-public class Cetakan_IdentitasKelas {
+import java.io.Serializable;
+
+public class Cetakan_IdentitasKelas implements Serializable{
  
     private String nama;
     private String lokasi;

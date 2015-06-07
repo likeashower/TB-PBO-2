@@ -2,6 +2,13 @@
 
 package RuangKelas;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
 public class JmlKonPosisiSarana extends AnalisaRuangKelas implements AnalisaRuangKelas1{
     
     Cetakan_JmlKonPosisiSarana[] wa = new Cetakan_JmlKonPosisiSarana[19];
@@ -382,6 +389,44 @@ public class JmlKonPosisiSarana extends AnalisaRuangKelas implements AnalisaRuan
             }
               
     }
+            
+             void File(){
+         
+         String File = "Kebersihan.bin";
+         
+         try {
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(File));
+            for (int n =0; n <=wa.length ;n++) {
+            os.writeObject(jkp.getInput());}
+            for (int n =0; n <wa.length ;n++) {
+            os.writeObject(jkp.getInput1());}
+            os.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+           System.out.println("Done Writing");
+           
+          try {
+                FileInputStream fl = new FileInputStream(File);
+                ObjectInputStream is = new ObjectInputStream(fl);
+                Object one = is.readObject();
+                Object two = is.readObject();
+                Cetakan_JmlKonPosisiSarana o = (Cetakan_JmlKonPosisiSarana) one;
+                Cetakan_JmlKonPosisiSarana a = (Cetakan_JmlKonPosisiSarana) two;
+                System.out.println("ini adalah input string " + o.getInput());
+                System.out.println("ini adalah input int " + o.getInput1());
+                is.close();
+        } catch (FileNotFoundException e) {
+                e.printStackTrace();
+        } catch (IOException e) {
+                e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+        }
+         
+     }
        
                 
 }

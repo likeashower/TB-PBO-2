@@ -1,4 +1,4 @@
-package RuangKelas;
+/*package RuangKelas;
 
 public class TestKelas {
     
@@ -17,23 +17,24 @@ public class TestKelas {
 //        id.insertdata_IDKELAS();
 //        kd.InputKondisiKelas();
 //        jkps.InputJKPSarana();
-        ling.InputLingRuangKelas();
+//        ling.InputLingRuangKelas();
         brs.InputKebersihanRK();
 //        nym.InputKenyamanan();
-        aman.InputKeamananRK();
+//        aman.InputKeamananRK();
         
         //OUTPUT
 //        id.cetakdata_IDKELAS();
 //        kd.OutputKondisiKelas();
 //        jkps.OutputJKPSarana();
-        ling.OutputLingRuangKelas();
+//        ling.OutputLingRuangKelas();
         brs.OutputKebersihanRK();
 //        nym.OutputKenyamanan();
-        aman.OutputKeamananRK();
+//        aman.OutputKeamananRK();
        
         //FILE
-        ling.File();
+//        ling.File();
         brs.File();
-        aman.File();
+//        aman.File();
     }
 }
+*/

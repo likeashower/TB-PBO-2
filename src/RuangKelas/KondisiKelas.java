@@ -1,6 +1,14 @@
 
 
 package RuangKelas;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
 public class KondisiKelas extends AnalisaRuangKelas{
     
     Cetakan_KondisiKelas obj = new Cetakan_KondisiKelas();
@@ -105,4 +113,37 @@ public class KondisiKelas extends AnalisaRuangKelas{
         System.out.println("Luas Ruangan : " + hitung_luas() + "m");        
         System.out.println("Persentase Kesesuaian Kondisi Kelas : " + (obj.getHitung()/4)*100 + "%");
   }
+        
+        void File(){
+         
+         String File = "Kondisi.bin";
+         
+         try {
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(File));
+            for (int n =0; n <4 ;n++) {
+            os.writeObject(obj.getInput());}
+            os.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+           System.out.println("Done Writing");
+           
+          try {
+                FileInputStream fl = new FileInputStream(File);
+                ObjectInputStream is = new ObjectInputStream(fl);
+                Object one = is.readObject();
+                Cetakan_KondisiKelas o = (Cetakan_KondisiKelas) one;
+                System.out.println("ini adalah input string " + o.getInput());
+                is.close();
+        } catch (FileNotFoundException e) {
+                e.printStackTrace();
+        } catch (IOException e) {
+                e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+        }
+         
+     }
 }

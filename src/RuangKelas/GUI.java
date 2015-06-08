@@ -1270,7 +1270,8 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        //Tabs.hide();
+        
+//Tabs.hide();
          if(username.getText().equals("ulfie")&& password.getText().equals("infinite") ){
             JOptionPane.showMessageDialog(null, "Selamat Log in Berhasil");
         }

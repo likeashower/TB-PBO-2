@@ -1,5 +1,7 @@
 package RuangKelas;
 
+import javax.swing.JOptionPane;
+
 public class SignIn {
     
     private String username;
@@ -23,6 +25,6 @@ public class SignIn {
         password = "12345678";
     }
     
-    
-    
 }
+
+

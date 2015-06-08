@@ -1271,15 +1271,14 @@ public class GUI extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         //Tabs.hide();
-        if (username.getText().equals(test.getUsername())) {
-            if (password.getText().equals(test.getPassword())){
-                Tabs.addTab("Identitas dan Kondisi", IdentitasdanKondisi);
-            }
-            else {
-                JOptionPane.showMessageDialog(null, "Password atau Username Salah!");
-            }
-        } else {
-            JOptionPane.showMessageDialog(null, "Password atau Username Salah!");
+         if(username.getText().equals("ulfie")&& password.getText().equals("infinite") ){
+            JOptionPane.showMessageDialog(null, "Selamat Log in Berhasil");
+        }
+         else if (username.getText().equals("bella")&& password.getText().equals("taylorswift")){
+             JOptionPane.showMessageDialog(null, "Selamat Log in Berhasil");
+         }
+        else{
+            JOptionPane.showMessageDialog(null, "Maaf ada kesalahan dalam username atau password anda");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
